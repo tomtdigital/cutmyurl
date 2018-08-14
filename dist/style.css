@@ -1,0 +1,86 @@
+header {
+  height: 4em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: #22917d;
+  height: calc(100vh - 60px);
+  text-align: center;
+}
+
+h1 {
+  
+  font-family: Roboto;
+  text-align: center;
+  color: #000;
+  padding-top: 40px;
+  
+}
+
+p{
+  font-family: Roboto;
+  padding-top: 40px;
+  
+}
+
+.logo {
+  width: 3rem;
+  
+}
+
+
+
+#input {
+  width: 16em;
+  height: 2rem;
+  border-radius: 3.2px;
+  border: solid 0.8px #1f233e;
+  background-color: inherit;
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+#input:focus {
+  border-color: #ffffff;
+  border-width: 1.5px;
+}
+
+#shorten {
+  width: 10em;
+  height: 3em;
+  border-radius: 3.2px;
+  background-color: #207b6a;
+  border-style: none;
+  margin-top: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#shorten:hover {
+  background-color: #1a6c5d;
+  cursor: pointer;
+}
+
+#shorten:active {
+  background-color: #ffffff;
+  color: #1f233e;
+  cursor: pointer;
+}
+
+#responseField {
+  min-width: 30em;
+  min-height: 10em;
+  border: solid 2px #ffffff;
+  margin: auto;
+  margin-top: 2em;
+  text-align: center;
+  color: #ffffff;
+  overflow: auto;
+}
+
